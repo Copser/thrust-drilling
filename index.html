@@ -60,9 +60,14 @@
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
 
-      <div class="row">
+      <div class="row" id="app">
          <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1 class="text-center">Animation</h1> 
+            <ul>
+                <li v-for="todo in todos">
+                {{ todo.text }}
+                </li>
+            </ul>
          </div> 
       </div>
 
@@ -75,7 +80,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/vue/dist/vue.min.js"></script>
+
+    <!-- Vuejs -->
+    <script src="bower_components/vue/dist/vue.js"></script>
+
+    <!-- Custom js file -->
+    <script src="bower_components/bootstrap/dist/js/drillinganime.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
