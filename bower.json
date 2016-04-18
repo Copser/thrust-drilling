@@ -1,0 +1,25 @@
+{
+  "name": "TrustDrill",
+  "homepage": "https://github.com/Copser/thrust-drilling",
+  "authors": [
+    "Copser <iamrmot@gmail.com>"
+  ],
+  "description": "redesign webpage",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "thrustdrill"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "vue": "~1.0.21"
+  }
+}
