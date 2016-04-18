@@ -1,1 +1,1 @@
-Start initial redesign for [Thrustdrill](http://thrustdrilling.com/) construction company.
+Start initial redesign for [Thrustdrilling](http://thrustdrilling.com/) construction company.
