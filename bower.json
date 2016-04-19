@@ -5,8 +5,14 @@
     "Copser <iamrmot@gmail.com>"
   ],
   "description": "redesign webpage",
-  "main": "",
-  "moduleType": [],
+  "main": "[
+    "js/drillinganime.js"
+  ]",
+  "moduleType": [
+    "amd",
+    "global",
+    "node"
+  ],
   "keywords": [
     "thrustdrill"
   ],
