@@ -4,17 +4,10 @@
   "authors": [
     "Copser <iamrmot@gmail.com>"
   ],
-  "description": "redesign webpage",
-  "main": "[
-    "js/drillinganime.js"
-  ]",
-  "moduleType": [
-    "amd",
-    "global",
-    "node"
-  ],
+  "description": "small_animation",
+  "main": "index.html",
   "keywords": [
-    "thrustdrill"
+    "construction"
   ],
   "license": "MIT",
   "ignore": [
@@ -26,6 +19,7 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.6",
-    "vue": "~1.0.21"
+    "vue": "~1.0.21",
+    "jquery_lazyload": "jquery.lazyload#^1.9.7"
   }
 }
