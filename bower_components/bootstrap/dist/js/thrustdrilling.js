@@ -34,6 +34,7 @@ $(function(){
     });
     $('#anime2').click(function(){
         $('.col4').show( 500 );
+
         $('#col4 h3').text('Ground Improvements!');
         $('#col4 p:first').text('Ground Improvements text will be displayed here!');
     });
@@ -101,14 +102,15 @@ $(function(){
 
     });
 
-        $('#anime5').click(function(){
-            $('.columns').hide( 500 );
-            $('.column').hide( 500 );
-        });
-        $('#anime5').click(function(){
-            $('.col5').show( 500 );
-            $('#col5 h3').text('Additional!');
-            $('#col5 p:first').text('Additional Technologies text will be displayed here!');
-        });
+    $('#anime5').click(function(){
+        $('.column').hide( 500 );
+        $('.columns').hide( 500 );
+    });
+    $('#anime5').click(function(){
+        $('.col4').show( 500 );
+
+        $('#col4 h3').text('Additional Technologies!');
+        $('#col4 p:first').text('Additional Technologies text will be displayed here!');
+    });
 
 });
