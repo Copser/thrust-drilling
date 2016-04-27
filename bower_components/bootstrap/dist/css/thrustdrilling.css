@@ -1,5 +1,9 @@
 /* Start building animation with css3 transition */
 
+.btn {
+    display: block;
+}
+
 
 .thumbnail:hover {
     -webkit-transform: scale(1.3);
