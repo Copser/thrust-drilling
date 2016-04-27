@@ -20,6 +20,7 @@
   "dependencies": {
     "bootstrap": "~3.3.6",
     "vue": "~1.0.21",
-    "jquery_lazyload": "jquery.lazyload#^1.9.7"
+    "jquery_lazyload": "jquery.lazyload#^1.9.7",
+    "susy": "^2.2.12"
   }
 }
