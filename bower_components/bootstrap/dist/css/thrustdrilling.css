@@ -37,3 +37,14 @@
     transition-timing-function: ease;
 }
 */
+
+/* css for img which I'm loading with jquery */
+#col1 img {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
