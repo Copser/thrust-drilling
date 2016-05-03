@@ -1,7 +1,9 @@
 // Buidling Thrustdrilling animation, beginning with JQuery
 $(function(){
 
+
     $('#anime1').click(function(){
+
         $('.column').each(function(){
             $( this ).hide( 500 );
         });
@@ -32,7 +34,7 @@ $(function(){
         $('#col6 h3').text('Grouting!');
         $('#col6 p:first').text('Grouting retention text will be displayed here!');
         });
-    });
+    }).trigger('click');
 
     $('#anime2').click(function(){
         $('.columns').hide( 500 );
